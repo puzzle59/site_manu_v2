@@ -1,0 +1,68 @@
+/* Navbar  */
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: #333;
+}
+
+nav li {
+ float: left;
+}
+
+nav li a {
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+ background-color: #111;
+}
+
+/* Top div  */
+#top_div{
+  background-color:#289672;
+  height:30rem;
+  padding:1rem;
+  margin:0;
+  position:relative;
+}
+#top_div p{
+  display:inline;
+  font-size: 2.5rem;
+  font-family:'Source Sans Pro',sans-serif;
+  color: #e6dd3b;
+  line-height: 2;
+
+  float:right;
+  width:58%;
+}
+.top_image{
+
+  width:40%;
+  border-radius: 40px;
+  height:30rem;
+}
+/* Middle div , indiv/collectif  */
+.middle-div{
+  height:5rem;
+  /* background-color:green; */
+  margin:0;
+}
+.indiv-pic{
+  width:50%;
+  left:0;
+  position:absolute;
+  opacity:0.85;
+}
+.collec-pic{
+  width:50%;
+  position:absolute;
+  right:0;
+  opacity:0.75;
+}
